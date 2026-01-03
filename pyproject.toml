@@ -1,0 +1,6 @@
+[project]
+name = "coupon"
+version = "0.0.1"
+description = "本项目旨在开发一套基于Chrome自动化技术的工具，用于实现京东和淘宝平台的优惠券获取及相关操作，最终达成优惠券的完整闭环流程。"
+requires-python = ">=3.13"
+dependencies = []
