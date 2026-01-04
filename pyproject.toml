@@ -3,4 +3,17 @@ name = "coupon"
 version = "0.0.1"
 description = "本项目旨在开发一套基于Chrome自动化技术的工具，用于实现京东和淘宝平台的优惠券获取及相关操作，最终达成优惠券的完整闭环流程。"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "black>=25.12.0",
+    "inquirer>=3.4.1",
+    "loguru>=0.7.3",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "pandas-stubs~=2.3.3",
+    "python-dotenv>=1.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.12.0",
+]
